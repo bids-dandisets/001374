@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +11,12 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Blauvelt, Lon (2025) Brain Set Draft (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001374/draft
+citation: Blauvelt, Lon; Hernandez, Sebastion; Schweiger, Hunter; Cline, Isabel; Kaurala,
+  Gregory; Robbins, Ash; Geng, Jinghui; Molen, Tjiste van der; Reyes, Francisco; Asogwa,
+  Chinweike; Voitiuk, Kateryna; Colquitt, Bradley; Sharf, Tal; Haussler, David; Teodorescu,
+  Mircea; Mostajo-Radji, Mohammed A. (2025) Self-Organizing Neural Networks in Organoids
+  Reveal Principles of Forebrain Circuit Assembly (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001374/draft
 contributor:
 - affiliation: []
   email: lblauvel@ucsc.edu
@@ -20,17 +25,72 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- includeInCitation: true
+  name: Hernandez, Sebastion
+  schemaKey: Person
+- includeInCitation: true
+  name: Schweiger, Hunter
+  schemaKey: Person
+- includeInCitation: true
+  name: Cline, Isabel
+  schemaKey: Person
+- includeInCitation: true
+  name: Kaurala, Gregory
+  schemaKey: Person
+- includeInCitation: true
+  name: Robbins, Ash
+  schemaKey: Person
+- name: Solis, Daniel
+  schemaKey: Person
+- includeInCitation: true
+  name: Geng, Jinghui
+  schemaKey: Person
+- includeInCitation: true
+  name: Molen, Tjiste van der
+  schemaKey: Person
+- includeInCitation: true
+  name: Reyes, Francisco
+  schemaKey: Person
+- includeInCitation: true
+  name: Asogwa, Chinweike
+  schemaKey: Person
+- includeInCitation: true
+  name: Voitiuk, Kateryna
+  schemaKey: Person
+- name: Rolandi, Marco
+  schemaKey: Person
+- name: Salama, Sofie
+  schemaKey: Person
+- includeInCitation: true
+  name: Colquitt, Bradley
+  schemaKey: Person
+- includeInCitation: true
+  name: Sharf, Tal
+  schemaKey: Person
+- includeInCitation: true
+  name: Haussler, David
+  schemaKey: Person
+- includeInCitation: true
+  name: Teodorescu, Mircea
+  schemaKey: Person
+- includeInCitation: true
+  name: Mostajo-Radji, Mohammed A.
+  schemaKey: Person
 dateCreated: '2025-04-04T03:47:56.837414+00:00'
-description: Title and description are forthcoming.
+description: Ephys data from organoids
+ethicsApproval: []
 id: DANDI:001374/draft
 identifier: DANDI:001374
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001374/versions/draft/assets/
-name: Brain Set Draft
+name: Self-Organizing Neural Networks in Organoids Reveal Principles of Forebrain
+  Circuit Assembly
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 url: https://dandiarchive.org/dandiset/001374/draft
 version: draft
+wasGeneratedBy: []
