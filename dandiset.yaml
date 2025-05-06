@@ -20,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 762180065168
-  numberOfFiles: 127
+  numberOfBytes: 771592437891
+  numberOfFiles: 129
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -79,10 +79,10 @@ contributor:
   schemaKey: Person
 - name: Rolandi, Marco
   schemaKey: Person
-- name: Salama, Sofie
-  schemaKey: Person
 - includeInCitation: true
   name: Colquitt, Bradley
+  schemaKey: Person
+- name: Salama, Sofie
   schemaKey: Person
 - includeInCitation: true
   name: Sharf, Tal
@@ -96,6 +96,56 @@ contributor:
 - includeInCitation: true
   name: Mostajo-Radji, Mohammed A.
   schemaKey: Person
+- awardNumber: SF857
+  identifier: https://ror.org/014bj2y47
+  includeInCitation: false
+  name: Schmidt Futures
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1RM1HG011543
+  identifier: https://ror.org/00baak391
+  includeInCitation: false
+  name: National Human Genome Research Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: NSF2134955
+  identifier: https://ror.org/021nxhr62
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1U24MH132628
+  identifier: https://ror.org/04t0s7x83
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: DISC4-16285
+  identifier: https://ror.org/033m8b439
+  name: California Institute for Regenerative Medicine
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: M25PR9045
+  identifier: https://ror.org/00dmfq477
+  name: University of California Office of the President
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: NSF2034037
+  identifier: https://ror.org/021nxhr62
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: DISC4-16337
+  identifier: https://ror.org/033m8b439
+  name: California Institute for Regenerative Medicine
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-04-04T03:47:56.837414+00:00'
 description: Ephys data from organoids
 ethicsApproval: []
